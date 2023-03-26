@@ -1,0 +1,17 @@
+
+
+button{
+    width: 120px;
+    height: 30px;
+    margin: 5px;
+    display: block;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background:  linear-gradient(180deg, var(--SecondColor) 16%, rgba(238,188,33,1) 39%, rgba(237,189,37,1) 64%, rgba(242,191,29,1) 83%);
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
