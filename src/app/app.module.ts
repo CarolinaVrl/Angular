@@ -18,6 +18,8 @@ import { OrganismModalSolicturequestDefaultComponent } from './organism/organism
 import { AtomIconMessageModalDefaultComponent } from './atoms/atom-icon-message-modal-default/atom-icon-message-modal-default.component';
 import { AtomTextModalDefaultComponent } from './atoms/atom-text-modal-default/atom-text-modal-default.component';
 import { OrganismNavbarHomeDefaultComponent } from './organism/organism-navbar-home-default/organism-navbar-home-default.component';
+import { AtomTextCredigtextDefaultComponent } from './atoms/atom-text-credigtext-default/atom-text-credigtext-default.component';
+import { MoleculeCardTemplateDefaultComponent } from './molecules/molecule-card-template-default/molecule-card-template-default.component';
 
 
 
@@ -36,7 +38,9 @@ import { OrganismNavbarHomeDefaultComponent } from './organism/organism-navbar-h
     OrganismModalSolicturequestDefaultComponent,
     AtomIconMessageModalDefaultComponent,
     AtomTextModalDefaultComponent,
-    OrganismNavbarHomeDefaultComponent
+    OrganismNavbarHomeDefaultComponent,
+    AtomTextCredigtextDefaultComponent,
+    MoleculeCardTemplateDefaultComponent
   ],
   imports: [
     BrowserModule,

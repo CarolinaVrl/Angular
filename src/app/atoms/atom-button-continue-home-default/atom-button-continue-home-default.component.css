@@ -28,3 +28,11 @@ i{
    margin: auto;
 
 }
+
+@media screen and (min-width:992px) {
+    button{
+        width: 220px;
+        padding-bottom: 0 ;
+    }
+ 
+}

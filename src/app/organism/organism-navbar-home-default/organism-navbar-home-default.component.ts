@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./organism-navbar-home-default.component.css']
 })
 export class OrganismNavbarHomeDefaultComponent {
+  itemsNavBar = [
+    'Quienes somos','Contacto', 'Ayuda'
+  ]
 
 }

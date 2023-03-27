@@ -1,0 +1,6 @@
+section{
+    width: 400px;
+    display: grid;
+    place-items: center;
+    padding: 120px 0;
+}
