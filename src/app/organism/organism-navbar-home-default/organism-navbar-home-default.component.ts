@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class OrganismNavbarHomeDefaultComponent {
   itemsNavBar = [
-    'Quienes somos','Contacto', 'Ayuda'
+    'Quienes somos','Contacto', 'Ayuda', 'iniciar'
   ]
 
 }

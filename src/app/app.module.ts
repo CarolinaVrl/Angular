@@ -20,6 +20,7 @@ import { AtomTextModalDefaultComponent } from './atoms/atom-text-modal-default/a
 import { OrganismNavbarHomeDefaultComponent } from './organism/organism-navbar-home-default/organism-navbar-home-default.component';
 import { AtomTextCredigtextDefaultComponent } from './atoms/atom-text-credigtext-default/atom-text-credigtext-default.component';
 import { MoleculeCardTemplateDefaultComponent } from './molecules/molecule-card-template-default/molecule-card-template-default.component';
+import { MoleculeButtonarrowContinueDefaultComponent } from './molecules/molecule-buttonarrow-continue-default/molecule-buttonarrow-continue-default.component';
 
 
 
@@ -40,7 +41,8 @@ import { MoleculeCardTemplateDefaultComponent } from './molecules/molecule-card-
     AtomTextModalDefaultComponent,
     OrganismNavbarHomeDefaultComponent,
     AtomTextCredigtextDefaultComponent,
-    MoleculeCardTemplateDefaultComponent
+    MoleculeCardTemplateDefaultComponent,
+    MoleculeButtonarrowContinueDefaultComponent
   ],
   imports: [
     BrowserModule,

@@ -11,10 +11,14 @@ export class OrganismModalSolicturequestDefaultComponent {
     
 
   }
-  public continue:boolean 
+  public continue:{
+    istrue:boolean
+  } 
 
   ngOnInit():void{
-    this.buttonService.showModal.subscribe(data=>this.continue = data)
+    this.buttonService.showModal.subscribe(data=> this.continue  = data)
+    
+   
     
   }
 

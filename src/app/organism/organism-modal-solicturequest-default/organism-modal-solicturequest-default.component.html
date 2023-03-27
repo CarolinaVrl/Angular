@@ -1,5 +1,6 @@
-<main class="displaynone">
+<main [ngClass]="{'modalContainer': continue, 'displayNone':!continue}">
     <section [ngClass]="{'modalBody': continue, 'displayNone':!continue}">
+
         <h2>Mensaje</h2>
         <app-atom-icon-message-modal-default></app-atom-icon-message-modal-default>
         <app-atom-text-modal-default></app-atom-text-modal-default>

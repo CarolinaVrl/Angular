@@ -18,21 +18,15 @@ span{
 button:hover{
     cursor: pointer;
 }
-i{
-    font-weight: 600;
-    font-size: 18px;
-   position: absolute ;
-   right: -50px;
-   top: 0;
-   bottom: 0;
-   margin: auto;
 
-}
 
 @media screen and (min-width:992px) {
     button{
         width: 220px;
         padding-bottom: 0 ;
+    }
+    button:hover{
+        cursor: pointer;
     }
  
 }
