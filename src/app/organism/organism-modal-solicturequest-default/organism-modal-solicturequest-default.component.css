@@ -1,0 +1,30 @@
+
+
+/* .modalContainer{
+    position: fixed;
+    overflow-y:auto;
+    background: rgb(139, 14, 14);
+    z-index: 999;
+} */
+
+.modalBody{
+    width: 100%;
+    height: 280px;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    border-radius: 25px  25px  0 0;
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+    
+}
+
+.displayNone{
+    display: none;
+}

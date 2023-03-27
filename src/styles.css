@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root{
-    --PrimaaryColor:rgb(238,188,29);
+    --PrimaryColor:rgb(238,188,29);
     --SecondColor:rgb(235 201 102);
+    --rbgaPrimaryColor:rgba(238,188,29,0.8)
 }
 
 *{
@@ -21,3 +22,5 @@ h2{
 hr{
     width: 80%;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -6,16 +6,21 @@ main{
 }
 
 .card{
-    display: grid;
-    place-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
     width: 80%;
-    height: 320px;
+    height: 350px;
+    max-height: 500px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
     margin-top: 50px;
     padding: 20px;
+    
 }
 
 .days{

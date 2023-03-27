@@ -11,6 +11,15 @@ import { AtomInputAmountDefaultComponent } from './atoms/atom-input-amount-defau
 import { AtomButtonContinueHomeDefaultComponent } from './atoms/atom-button-continue-home-default/atom-button-continue-home-default.component';
 import { AtomTextSolicitedDefaultComponent } from './atoms/atom-text-solicited-default/atom-text-solicited-default.component';
 import { AtomIconHomeDefaultComponent } from './atoms/atom-icon-home-default/atom-icon-home-default.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { OrganismModalSolicturequestDefaultComponent } from './organism/organism-modal-solicturequest-default/organism-modal-solicturequest-default.component';
+import { AtomIconMessageModalDefaultComponent } from './atoms/atom-icon-message-modal-default/atom-icon-message-modal-default.component';
+import { AtomTextModalDefaultComponent } from './atoms/atom-text-modal-default/atom-text-modal-default.component';
+import { OrganismNavbarHomeDefaultComponent } from './organism/organism-navbar-home-default/organism-navbar-home-default.component';
+
+
 
 
 @NgModule({
@@ -23,11 +32,18 @@ import { AtomIconHomeDefaultComponent } from './atoms/atom-icon-home-default/ato
     AtomInputAmountDefaultComponent,
     AtomButtonContinueHomeDefaultComponent,
     AtomTextSolicitedDefaultComponent,
-    AtomIconHomeDefaultComponent
+    AtomIconHomeDefaultComponent,
+    OrganismModalSolicturequestDefaultComponent,
+    AtomIconMessageModalDefaultComponent,
+    AtomTextModalDefaultComponent,
+    OrganismNavbarHomeDefaultComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

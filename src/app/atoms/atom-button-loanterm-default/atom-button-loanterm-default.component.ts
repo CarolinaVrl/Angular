@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AtomButtonLoantermDefaultComponent {
   days = [10, 20, 30]
+
+  
 }

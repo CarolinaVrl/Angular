@@ -1,5 +1,30 @@
 button{
-    width: 250px;
+    width: 300px;
     height: 25px;
-    background: var();
+    background: var(--PrimaryColor);
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+}
+span{
+    position: relative;
+}
+button:hover{
+    cursor: pointer;
+}
+i{
+    font-weight: 600;
+    font-size: 18px;
+   position: absolute ;
+   right: -50px;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+
 }

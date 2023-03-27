@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./atom-input-amount-default.component.css']
 })
 export class AtomInputAmountDefaultComponent {
+  public onlyNumber = '^[0-9]*$'
   
 
 }
