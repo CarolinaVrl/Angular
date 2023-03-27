@@ -1,12 +1,12 @@
-<main [ngClass]="{'modalContainer': continue, 'displayNone':!continue}">
-    <section [ngClass]="{'modalBody': continue, 'displayNone':!continue}">
+<main [ngClass]="{'modalContainer': continue, 'displayNone':isOpenModal}">
+    <section [ngClass]="{'modalBody': continue , 'displayNone':isOpenModal}">
 
         <h2>Mensaje</h2>
         <app-atom-icon-message-modal-default></app-atom-icon-message-modal-default>
         <app-atom-text-modal-default></app-atom-text-modal-default>
 
 
-       <app-atom-button-continue-home-default></app-atom-button-continue-home-default>
+       <button (click)="closedModal()">Continue</button>l
     </section>
 
 </main>
