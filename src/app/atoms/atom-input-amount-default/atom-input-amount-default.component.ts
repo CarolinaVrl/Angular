@@ -6,7 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./atom-input-amount-default.component.css']
 })
 export class AtomInputAmountDefaultComponent {
-  public onlyNumber = '^[0-9]*$'
-  
-
+  onlyNumber(e:any) {
+    let value = e.which || e.keycode;
+    if ((value >= 48 && value <= 57))
+      return true;
+    else
+    return false
+  }
 }
+
+
+
+
+
