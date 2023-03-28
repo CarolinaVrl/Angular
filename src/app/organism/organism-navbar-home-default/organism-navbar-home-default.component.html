@@ -1,9 +1,13 @@
-
-
 <nav>
     <img src="https://www.credig.co/content/images/credigGlobal.svg" alt="">
-    <ul *ngFor="let item of itemsNavBar">
+    <ul *ngFor="let item of itemsNavBar" >
         <li>{{item}}</li>
     </ul>
-   
+    <i (click)="isOpenMenu()" class="fa-solid fa-bars"></i>
+    <div class="menu" [ngClass]="{'displayNone':open, 'menu':!open}">
+        <ul class="menu_ul" *ngFor="let item of itemsNavBar">
+            <li>{{item}}</li>
+        </ul>
+    </div>
+
 </nav>

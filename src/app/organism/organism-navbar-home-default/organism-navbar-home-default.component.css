@@ -1,24 +1,71 @@
-
-nav{
+nav {
     width: 100%;
     display: flex;
     padding: 10px 20px 0 20px;
-   
-    background:var(--PrimaryColor);
-    
-    
-}
+    justify-content: space-between;
 
+    background: var(--PrimaryColor);
+
+
+}
 ul{
     display: none;
+}
+
+
+.menu_ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayNone {
+    display: none;
+    
 
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    background: var(--rbgaPrimaryColor);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 300px;
+    z-index: 10000;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+li{
+    list-style: none;
+    
+}
 li:hover{
-    cursor: pointer;
-    scale: 105%;
-    border-bottom: 2px solid var(--PrimaryColor);
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    font-size: 18px;
 }
+
+i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+i:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
 
 
 /* 
@@ -26,56 +73,67 @@ nav{
     display: none;
 } */
 
-img{
+img {
     height: 60px;
     width: 60px;
     padding-bottom: 10px;
 }
 
 @media screen and (min-width:576px) {
-    img{
+    img {
         height: 65px;
-        width:65px;
+        width: 65px;
 
     }
- 
+
 }
 
-@media screen and (min-width:720px){
-    nav{
-        justify-content:space-around;
+@media screen and (min-width:720px) {
+    nav {
+        justify-content: space-around;
         padding-left: 10px;
         position: relative;
-        background:whitesmoke;
-      
+        background: whitesmoke;
+
         align-items: center;
         text-align: center;
     }
-    ul{
+    
+
+    ul {
         display: flex;
         list-style: none;
         font-weight: 500;
     }
+
+    li:hover {
+        cursor: pointer;
+        scale: 105%;
+        border-bottom: 2px solid var(--PrimaryColor);
+    }
+    i{
+        display: none;
+    }
 }
 
 @media screen and (min-width:992px) {
-    img{
+    img {
         width: 75px;
         height: 75px;
     }
 
-    ul{
+    ul {
         font-size: 15px;
     }
-    
+
 }
 
-@media screen and (min-width: 1200px){
-    ul{
+@media screen and (min-width: 1200px) {
+    ul {
         font-size: 18px;
     }
 
-    img{
+    img {
         width: 90px;
         height: 90px;
     }

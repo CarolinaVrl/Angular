@@ -6,8 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./organism-navbar-home-default.component.css']
 })
 export class OrganismNavbarHomeDefaultComponent {
+  open:boolean = true
   itemsNavBar = [
     'Quienes somos','Contacto', 'Ayuda', 'iniciar'
   ]
+  isOpenMenu(){
+    this.open = !(this.open)
+    
+  
+  }
 
 }
