@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root{
-    --PrimaryColor:rgb(238,188,29);
-    --SecondColor:rgb(235 201 102);
-    --rbgaPrimaryColor:rgba(238,188,29,0.8)
+    --PrimaryColor:#188AC7;
+    --SecondColor:#0B66D6;
+    --rbgaPrimaryColor:rgba(11,102,214,0.2)
 }
 
 *{

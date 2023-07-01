@@ -8,7 +8,7 @@ button{
     padding: 5px;
     border-radius: 20px;
     border: none;
-    background:  linear-gradient(180deg, var(--SecondColor) 16%, rgba(238,188,33,1) 39%, rgba(237,189,37,1) 64%, rgba(242,191,29,1) 83%);
+    background: linear-gradient(0deg, rgba(24,138,199,1) 14%, rgba(18,121,206,1) 23%, rgba(11,102,214,1) 35%, rgba(0,212,255,1) 95%);
     
 }
 

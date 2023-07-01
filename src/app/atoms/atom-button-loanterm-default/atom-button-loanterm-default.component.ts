@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./atom-button-loanterm-default.component.css']
 })
 export class AtomButtonLoantermDefaultComponent {
-  days = [10, 20, 30]
+  days = [10, 20, ]
 
   
 }
