@@ -74,18 +74,41 @@ nav{
     display: none;
 } */
 
-img {
-    height: 60px;
-    width: 60px;
-    padding-bottom: 10px;
+
+.padre{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    bottom: 5px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(24,138,199,1) 14%, rgba(18,121,206,1) 23%, rgba(11,102,214,1) 35%, rgba(0,212,255,1) 95%);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padre h2{
+    color: #ffffff;
+    font-size: 55px;
+}
+.son{
+    display: flex;
+    gap: 5px;    
+    position: absolute;
+    bottom: 0;
+    right:-90px;
+
+    
+}
+.son div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--PrimaryColor);
 }
 
 @media screen and (min-width:576px) {
-    img {
-        height: 65px;
-        width: 65px;
-
-    }
+    
 
 }
 
